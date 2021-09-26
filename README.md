@@ -1,7 +1,13 @@
 # Image-Gallery-Demo
 
+Grapecity Assignment
 
-Image gallery is designed by usinf WindowForm in Visual Studio 2019.
+It's an image Gallery Application developed on Microsoft Visual Studio 2017.
+
+## Features 
++ Download selected images as pdf
++ Search images
++ Save images to the local storage
 
 
 ## Language Used : C#
