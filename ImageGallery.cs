@@ -130,19 +130,17 @@ namespace Image_Gallery_Demo
             panel2.Location = new Point(601, 15);
             panel2.Margin = new Padding(2, 15, 51, 15);
             panel2.Name = "panel2";
-            panel2.Size = new Size(45, 10);
+            panel2.Size = new Size(60, 20);
             panel2.TabIndex = 1;
             // 
             // _search Component
             // 
             _search.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            _search.ErrorImage = Properties.Resources.icon;
-            _search.Image = (Image)resources.GetObject("_search");
-            //_search.Image = Resources.Capture;
+            _search.Image = Properties.Resources.icon;
             _search.Location = new Point(0, 0);
             _search.Margin = new Padding(3, 4, 3, 4);
             _search.Name = "_search";
-            _search.Size = new Size(45, 10);
+            _search.Size = new Size(25, 19);
             _search.SizeMode = PictureBoxSizeMode.Zoom;
             _search.TabIndex = 0;
             _search.TabStop = false;
@@ -210,11 +208,11 @@ namespace Image_Gallery_Demo
             // 
             // _exportImage Component
             // 
-            _exportImage.Image = (Image)resources.GetObject("_exportImage.Image");
+            _exportImage.Image = Properties.Resources.etp;
             _exportImage.Location = new Point(33, 4);
             _exportImage.Margin = new Padding(3, 4, 3, 4);
             _exportImage.Name = "_exportImage";
-            _exportImage.Size = new Size(152, 35);
+            _exportImage.Size = new Size(155, 35);
             _exportImage.SizeMode = PictureBoxSizeMode.StretchImage;
             _exportImage.TabIndex = 0;
             _exportImage.TabStop = false;
